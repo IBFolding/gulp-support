@@ -1,0 +1,21 @@
+name: Support request
+description: Report a bug or ask a product question.
+body:
+  - type: markdown
+    attributes:
+      value: 'This is PUBLIC. Never include passwords, API keys, seed phrases, payment details, addresses, or private account information. For billing or private account help, email fckthef3d@gmail.com.'
+  - type: textarea
+    id: issue
+    attributes:
+      label: What do you need help with?
+      description: Describe the problem without personal information.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+  - type: input
+    id: device
+    attributes:
+      label: Browser and device
